@@ -1,0 +1,10 @@
+//з цього файла чита галп
+@import "null.scss";
+@import "fonts.scss";
+#wrapper {
+    min-width: 100vw;
+}
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@import "media.scss";
