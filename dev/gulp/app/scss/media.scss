@@ -12,10 +12,34 @@
     
 }
 @media (max-width:$Laptop) {
-    
+    main .why-us-container{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    main .why-us-container .why-us-container__info {
+        order: 0;
+        margin: 20px 0;
+        text-align: center;
+    }
+    main .why-us-container .why-us-container__img {
+        order: 1;
+        width: 70%;
+        margin: 0 auto;
+    }
+    main .why-us-container .why-us-container__info button , #modified-paragraph {
+        margin: 0 auto;
+    }
 }
 @media (max-width:$Tablet) {
-    
+    header {
+        justify-content: space-between;
+    }
+    header #menu { 
+        display: none;
+    }
+    header .burger {
+        display: block;
+    }
 }
 @media (max-width:$MobileL) {
     
@@ -23,6 +47,6 @@
 @media (max-width:$MobileM) {
     
 }
-@media (max-width:$Mobile) {
+@media (max-width:$MobileS) {
     
 }
