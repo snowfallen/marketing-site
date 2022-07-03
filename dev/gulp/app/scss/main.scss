@@ -54,6 +54,7 @@ main {
             &-black {
                 background-color: rgb(28, 46, 58) ;
                 height: 50%;
+                margin-top: -2px;
             }
             &-white {
                 background-color: #fff;
@@ -129,6 +130,7 @@ main {
             padding: 0 24px;
             position: absolute;
             top: 72%;
+            left: 22%;
             &_txt {
                 h6 {
                     font-size: calc(15px + 17 * (100vw / 1440));

@@ -29,6 +29,17 @@
     main .why-us-container .why-us-container__info button , #modified-paragraph {
         margin: 0 auto;
     }
+    main .why-us-container__success {
+        height: 100px;
+        min-width: 35%;
+        top: 82%;
+        left: 55%;
+    }
+    main .why-us-container__success_img {
+        width: 70%;
+        height: 70%;
+        
+    }
 }
 @media (max-width:$Tablet) {
     header {

@@ -230,6 +230,7 @@ main .main-img .bg-img {
 main .main-img .bg-img-black {
   background-color: rgb(28, 46, 58);
   height: 50%;
+  margin-top: -2px;
 }
 main .main-img .bg-img-white {
   background-color: #fff;
@@ -323,6 +324,7 @@ main .why-us-container__success {
   padding: 0 24px;
   position: absolute;
   top: 72%;
+  left: 22%;
 }
 main .why-us-container__success_txt h6 {
   font-size: calc(15px + 1.1805555556vw);
@@ -366,6 +368,16 @@ main .why-us-container__success_img img {
   }
   main .why-us-container .why-us-container__info button, #modified-paragraph {
     margin: 0 auto;
+  }
+  main .why-us-container__success {
+    height: 100px;
+    min-width: 35%;
+    top: 82%;
+    left: 55%;
+  }
+  main .why-us-container__success_img {
+    width: 70%;
+    height: 70%;
   }
 }
 @media (max-width: 768px) {
