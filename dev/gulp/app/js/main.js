@@ -16,3 +16,8 @@ function menuActive() {
 
 burger.addEventListener("click", menuActive);
 
+let animationOptions = {
+  root:document.querySelector(".why-us-container__img"),
+  threshold: 0.5
+}
+

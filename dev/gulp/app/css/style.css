@@ -246,6 +246,9 @@ main .why-us-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 main .why-us-container__img {
   min-width: 48%;
@@ -302,6 +305,41 @@ main .why-us-container__info button:hover {
   transition: 0.6s;
   background-color: rgb(0, 138, 101);
   color: #DDF0A7;
+}
+main .why-us-container__success {
+  min-width: 29%;
+  height: 120px;
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #DDF0A7;
+  padding: 0 24px;
+  position: absolute;
+  top: 72%;
+}
+main .why-us-container__success_txt h6 {
+  font-size: calc(15px + 1.1805555556vw);
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 700;
+}
+main .why-us-container__success_txt p {
+  font-size: calc(10px + 0.3472222222vw);
+}
+main .why-us-container__success_img {
+  width: 72px;
+  height: 72px;
+}
+main .why-us-container__success_img img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 1024px) {
