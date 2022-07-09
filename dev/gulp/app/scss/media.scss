@@ -11,6 +11,18 @@
 @media (max-width:$LaptopL) {
     
 }
+@media (max-width:1250px) {
+    main .about-us-container .about-us-container__proposals {
+        justify-content: space-around;
+    }
+    main .about-us-container .about-us-container__proposals .about-us-container__proposals_proposal {
+        width: 35%;
+        padding: 0 34px;
+    }
+    main .about-us-container .about-us-container__proposals .about-us-container__proposals_proposal:last-child {
+        margin-top: 40px;
+    }
+}
 @media (max-width:$Laptop) {
     main .why-us-container{
         flex-direction: column;
@@ -26,19 +38,59 @@
         width: 70%;
         margin: 0 auto;
     }
-    main .why-us-container .why-us-container__info button , #modified-paragraph {
+    main .why-us-container .why-us-container__info button , .modified-paragraph {
         margin: 0 auto;
     }
     main .why-us-container__success {
         height: 100px;
-        min-width: 35%;
+        min-width: 45%;
         top: 82%;
-        left: 55%;
+        left: 45%;
     }
-    main .why-us-container__success_img {
+    main .why-us-container__success_img img{
+        width: 40px;        
+    }
+    main .benefits-container .box-info .box-info__item {
+        padding-right: 0;
+    }
+    main .benefits-container{
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    main .benefits-container .benefits-container__info {
+        order: 0;
+        margin: 20px 0;
+        text-align: center;
+    }
+    main .benefits-container .benefits-container__img {
+        order: 1;
         width: 70%;
-        height: 70%;
-        
+        margin: 0 auto;
+    }
+    main .benefits-container .benefits-container__info button , .modified-paragraph {
+        margin: 0 auto;
+    }
+    main .benefits-container__success {
+        height: 100px;
+        min-width: 45%;
+        top: 82%;
+        left: 45%;
+    }
+    main .benefits-container__success_img img{
+        width: 40px;        
+    }
+    main .about-us-container .about-us-container__proposals .about-us-container__proposals_proposal {
+        width: 70%;
+        padding: 0 20px;
+    }
+    main .about-us-container .about-us-container__proposals .about-us-container__proposals_proposal {
+        margin-top: 40px;
+    }
+    main .about-us-container .about-us-container__proposals {
+        justify-content: center;
+    }
+    main .reviews-container .reviews-container__slider-box .reviews-container__slider-box_slide {
+        width: 80%;
     }
 }
 @media (max-width:$Tablet) {
@@ -50,6 +102,33 @@
     }
     header .burger {
         display: block;
+    }
+    main .about-us-container .about-us-container__proposals .about-us-container__proposals_proposal {
+        width: 100%;
+    }
+    main .benefits-container .box-info {
+        flex-direction: column;
+    }
+    .reviews-container {
+        padding: 80px;
+    }
+    main .reviews-container .reviews-container__slider-box .reviews-container__slider-box_slide {
+        width: 90%;
+    }
+    main .form-container {
+        padding: 50px 20px 50px 20px;
+    }
+}
+@media (max-width:500px) {
+    main .why-us-container__success {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+        }
+    main .benefits-container__success {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
     }
 }
 @media (max-width:$MobileL) {
