@@ -95,6 +95,12 @@
     main #form-box .form-container {
         padding: 50px 20px 50px 20px;
     }
+    main .reviews-container__slider-box_slide > p {
+        padding: 20px 20px;
+    }
+    main .reviews-container__slider-box_slide > div {
+        padding: 20px 20px;
+    }
 }
 @media (max-width:$Tablet) {
     header {
@@ -106,20 +112,42 @@
     header .burger {
         display: block;
     }
+    main .why-us-container , main .about-us-container{
+        margin: 80px 1.5% 0 1.5%;   
+    }
+    main .about-us-container {
+        padding: 30px;
+    }
     main .about-us-container .about-us-container__proposals .about-us-container__proposals_proposal {
         width: 100%;
     }
     main .benefits-container .box-info {
         flex-direction: column;
     }
-    .reviews-container {
-        padding: 80px;
+    main .reviews-container {
+        padding: 80px 0 40px 0;
     }
     main .reviews-container .reviews-container__slider-box .reviews-container__slider-box_slide {
         width: 90%;
     }
     main #form-box .form-container {
         padding: 20px 10px 20px 10px;
+    }
+    main #form-box .form-container {
+        left: 1.5%;
+            right: 1.5%;         
+            margin: 100px 1.5% 0 1.5%
+    }
+    main #form-box .form-container {
+        form {
+            input {
+                padding: 12px 0 12px 12px;
+
+            }
+            button {
+                padding: 14px;
+            }
+        }
     }
 }
 @media (max-width:500px) {
