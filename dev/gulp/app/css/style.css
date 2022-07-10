@@ -650,7 +650,17 @@ main .reviews-container__slider-box_slide > div p {
 main .reviews-container__slider-box_slide > div img {
   border-radius: 30%;
 }
-main .form-container {
+main #form-box {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+}
+main #form-box .form-container {
+  position: absolute;
+  left: 5.5%;
+  right: 5.5%;
   margin: 200px 5.5% 0 5.5%;
   padding: 95px;
   display: -webkit-box;
@@ -666,7 +676,7 @@ main .form-container {
   background-color: #DDF0A7;
   border-radius: 48px;
 }
-main .form-container h2 {
+main #form-box .form-container h2 {
   text-align: center;
   font-family: "Fraunces";
   font-style: normal;
@@ -675,7 +685,7 @@ main .form-container h2 {
   line-height: 48px;
   color: #162E3C;
 }
-main .form-container > p {
+main #form-box .form-container > p {
   font-family: "Space Grotesk";
   font-style: normal;
   font-weight: 400;
@@ -685,18 +695,18 @@ main .form-container > p {
   color: #162E3C;
   margin: 26px 0 30px 0;
 }
-main .form-container form {
+main #form-box .form-container form {
   background-color: #DDF0A7;
   border-radius: 24px;
   text-align: center;
 }
-main .form-container form input {
+main #form-box .form-container form input {
   width: 40%;
   padding: 12px 0 12px 42px;
   color: #162E3C;
   border-radius: 24px;
 }
-main .form-container form button {
+main #form-box .form-container form button {
   width: 140px;
   font-size: calc(10px + 0.3472222222vw);
   font-family: "Space Grotesk";
@@ -713,15 +723,56 @@ main .form-container form button {
   transition: 0.6s;
   margin: 35px 0 0 16px;
 }
-main .form-container form button:hover {
+main #form-box .form-container form button:hover {
   -webkit-transition: 0.6s;
   -o-transition: 0.6s;
   transition: 0.6s;
   background: rgb(118, 243, 104);
   color: #000000;
 }
-main .form-container #small {
+main #form-box .form-container #small {
   font-size: 11px;
+}
+
+footer {
+  background: #162E3C;
+  height: 600px;
+}
+footer .bgc {
+  height: 80%;
+}
+footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 20%;
+}
+footer .footer-container .footer-txt p {
+  padding-left: 20px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(14px + 0.4166666667vw);
+  line-height: 21px;
+  color: #FFFFFF;
+}
+footer .footer-container .footer-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 15px;
+}
+footer .footer-container .footer-links ul li {
+  padding: 10px;
+}
+footer .footer-container .footer-links ul li a {
+  height: 41px;
+  background: #DDF0A7;
+  border-radius: 32px;
+  padding: 11px;
 }
 
 @media (max-width: 1250px) {
@@ -822,6 +873,9 @@ main .form-container #small {
   main .reviews-container .reviews-container__slider-box .reviews-container__slider-box_slide {
     width: 80%;
   }
+  main #form-box .form-container {
+    padding: 50px 20px 50px 20px;
+  }
 }
 @media (max-width: 768px) {
   header {
@@ -850,8 +904,8 @@ main .form-container #small {
   main .reviews-container .reviews-container__slider-box .reviews-container__slider-box_slide {
     width: 90%;
   }
-  main .form-container {
-    padding: 50px 20px 50px 20px;
+  main #form-box .form-container {
+    padding: 20px 10px 20px 10px;
   }
 }
 @media (max-width: 500px) {

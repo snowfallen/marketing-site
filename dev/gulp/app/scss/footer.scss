@@ -1,0 +1,38 @@
+footer {
+    background: #162E3C;
+    height: 600px;  
+    .bgc {
+        height: 80%;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        height: 20%;
+        .footer-txt {
+            p {
+                padding-left: 20px;
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 400;
+                font-size: calc(14px + 6 * (100vw / 1440));
+                line-height: 21px;            
+                color: #FFFFFF;
+            }
+        }
+        .footer-links {
+            ul {
+                display: flex;
+                padding: 0 15px;
+                li {
+                    padding: 10px;
+                    a {
+                        height: 41px;
+                        background: #DDF0A7;
+                        border-radius: 32px;
+                        padding: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
